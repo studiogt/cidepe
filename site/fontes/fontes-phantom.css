@@ -1,0 +1,28 @@
+/* ubuntu-300 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fontes/ubuntu-v9-latin-300.woff') format('woff'); /* Legacy iOS */
+}
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fontes/ubuntu-v9-latin-regular.woff') format('woff'); /* Legacy iOS */
+}
+/* ubuntu-500 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fontes/ubuntu-v9-latin-500.woff') format('woff'); /* Legacy iOS */
+}
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fontes/ubuntu-v9-latin-700.woff') format('woff'); /* Legacy iOS */
+}

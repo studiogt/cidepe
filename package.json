@@ -1,0 +1,16 @@
+{
+  "name": "cidepe",
+  "version": "1.0.1",
+  "description": "",
+  "main": "site/js/js.js",
+  "keywords": [
+    "javascript",
+    "browser",
+    "cdn"
+  ],
+  "author": {
+    "name": "Fábio Dias",
+    "email": "fabio@studiogt.com.br"
+  },
+  "license": "MIT"
+}

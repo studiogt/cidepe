@@ -1,0 +1,112 @@
+[
+    {
+        "Id" : 1,
+        "Latitude": 19.324095,
+        "Longitude": -99.241327,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",        
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 2,
+        "Latitude": -12.288701,
+        "Longitude": -77.247251,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 3,
+        "Latitude": -17.002377,
+        "Longitude": -64.684300,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {   
+        "Id" : 4,
+        "Latitude": -5.438588,
+        "Longitude": -35.941260,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 5,
+        "Latitude" : -13.117410,
+        "Longitude" : -38.502004,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 6,
+        "Latitude" : -22.411757,
+        "Longitude" : -48.535938,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 7,
+        "Latitude" : -29.682136,
+        "Longitude" : -54.702626,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 8,
+        "Latitude" : 9.971488,
+        "Longitude" : -83.968267,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 9,
+        "Latitude" : 40.849687,
+        "Longitude" : -8.089422,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 10,
+        "Latitude" : -8.860143,
+        "Longitude" :  13.284949,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    },
+    {
+        "Id" : 11,
+        "Latitude" : -26.032757,
+        "Longitude" :  33.300557,
+        "Bandeira" : "img/onde-brasil.png",
+        "Nome" : "Mogi Glass",
+        "Rua" : "Rua Victor Barreto, 592",
+        "Complemento" : "Centro - Canoas/RS",
+        "Email" : "cidepe@cidepe.com.br"
+    }
+]

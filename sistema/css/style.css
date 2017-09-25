@@ -1222,3 +1222,7 @@ EDIT
 table a {
 	color: black;
 }
+
+.overflow-fix {
+	overflow: inherit;
+}

@@ -87,7 +87,8 @@ var Modelo = {
 			$(this).hide().prev('div').animate({
 				height : '100%'				
 			}, 200).css({
-				'border-bottom': 'none'
+				'border-bottom': 'none',
+				'overflow': 'inherit'
 			});
 		});
 
@@ -99,7 +100,8 @@ var Modelo = {
 			if ($lis.length <= 4) {
 				$el.css({
 					height: '100%',
-					'border-bottom': 'none'
+					'border-bottom': 'none',
+					'overflow': 'inherit'
 				});
 				$this.hide();
 			} else {
@@ -115,6 +117,10 @@ var Modelo = {
 				});
 			}
 
+		});
+
+		$('body').on('click','.wrap-hidden .veja-mais', function() {
+			$(this).closest('.wrap-hidden').addClass('overflow-fix');
 		});
 
 		$('.carousel-conjunto').slick({

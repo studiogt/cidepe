@@ -119,8 +119,12 @@ var Modelo = {
 
 		});
 
-		$('body').on('click','.wrap-hidden .veja-mais', function() {
-			$(this).closest('.wrap-hidden').addClass('overflow-fix');
+		$('body').on('click','.veja-mais', function() {
+			var $wrap = $(this).prev('div');
+			$wrap.addClass('overflow-fix');
+			$wrap.css({
+				overflow: 'inherit'
+			});
 		});
 
 		$('.carousel-conjunto').slick({

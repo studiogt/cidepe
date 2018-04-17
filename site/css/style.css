@@ -2660,3 +2660,10 @@ li.sub-menu-todos {
 	li.sub-menu-todos:hover ul.sub-lists {
 		display: block;
 	}
+
+
+	li .produto-vitrine {
+	    border: 1px solid #999;
+	    padding: 15px;
+	    /* box-shadow: 0 0 2px rgba(0,0,0,0.2); */
+	}

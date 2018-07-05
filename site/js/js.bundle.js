@@ -68,13 +68,14 @@
                     autoplay: true,
                     fade: true,
                     pauseOnHover: false,
-                    speed: $('.carousel').data('speed')||3000
+                    speed: 3000,
+                    autoplaySpeed: $('.carousel').data('speed')||3000
                 });
             }
 
             if ($('.carousel-produtos').length != 0) {
                 $('.carousel-produtos').slick({
-                	speed: $('.carousel-produtos').data('speed')||3000,
+                	autoplaySpeed: $('.carousel-produtos').data('speed')||3000,
                     slidesToShow: 7,
                     slidesToScroll: 1,
                     centerMode: true,
@@ -108,7 +109,7 @@
                     arrows: false,
                     autoplay: true,
                     dots: true,
-                    speed: $('.carousel-empresa').data('speed')||3000
+                    autoplaySpeed: $('.carousel-empresa').data('speed')||3000
                 });
             }
 
@@ -227,7 +228,7 @@
 
             if ($('.wrap-thumbs').length != 0) {
                 $('.wrap-thumbs').slick({
-                	speed: $('.wrap-thumbs').data('speed')||3000,
+                	autoplaySpeed: $('.wrap-thumbs').data('speed')||3000,
                     slidesToShow: 4,
                     slidesToScroll: 1,
                     arrows: true,
@@ -282,7 +283,7 @@
 
             if ($('.carousel-relacionados').length != 0) {
                 $('.carousel-relacionados').slick({
-                	speed: $('.carousel-relacionados').data('speed')||3000,
+                	autoplaySpeed: $('.carousel-relacionados').data('speed')||3000,
                     slidesToShow: 4,
                     slidesToScroll: 1,
                     responsive: [{

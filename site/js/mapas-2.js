@@ -52,7 +52,7 @@ carregarPontos();
 function loadScript() {
   var script = document.createElement("script");
   script.type = "text/javascript";
-  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyBFLg3m9No8WQKQpRf7nTK-XAkIS3-wg6s&sensor=true&callback=initialize";
+  script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBFLg3m9No8WQKQpRf7nTK-XAkIS3-wg6s&sensor=true&callback=initialize";
   document.body.appendChild(script);
 }
 

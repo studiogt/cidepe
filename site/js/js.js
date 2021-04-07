@@ -411,7 +411,7 @@ Modelo = {
             var $self = $(this);
 
             if ($self.data('enviando')) return false;
-            if (!$self.find('.required').validate()) return false;
+            if (!$self.find('.required').validate_sgt()) return false;
 
             $self.data('enviando', true);
             $.fancybox.showLoading();
@@ -507,7 +507,7 @@ Modelo = {
             var $self = $(this);
 
             if ($self.data('enviando')) return false;
-            if (!$self.find('.required').validate()) return false;
+            if (!$self.find('.required').validate_sgt()) return false;
 
             $.fancybox.showLoading();
             $self.data('enviando', true);
@@ -549,7 +549,7 @@ Modelo = {
         $('body').on('submit', selector, function() {
             var $self = $(this);
             if ($self.data('enviando')) return false;
-            if (!$self.find('.required').validate()) return false;
+            if (!$self.find('.required').validate_sgt()) return false;
 
             $self.data('enviando', true);
             $.fancybox.showLoading();

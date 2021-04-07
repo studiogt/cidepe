@@ -73,7 +73,7 @@ $(function(){
 	$('body').on('submit','[name=formCadastro]',function() {
 		var $self = $(this);
 		if ($self.data('enviando')) return false;
-		if (!$self.find('.required').validate()) return false;
+		if (!$self.find('.required').validate_sgt()) return false;
 
 		var $email = $self.find('[name=email]');
 		var $email2 = $self.find('[name=email2]');
@@ -128,7 +128,7 @@ $(function(){
 	$('body').on('submit','[name=formLogin]',function() {
 		var $self = $(this);
 		if ($self.data('enviando')) return false;
-		if (!$self.find('.required').validate()) return false;
+		if (!$self.find('.required').validate_sgt()) return false;
 
 		$.fancybox.showLoading();
 		$self.data('enviando',true);
@@ -166,7 +166,7 @@ $(function(){
 	$('body').on('submit','[name=formEsqueciMinhaSenha]',function() {
 		var $self = $(this);
 		if ($self.data('enviando')) return false;
-		if (!$self.find('.required').validate()) return false;
+		if (!$self.find('.required').validate_sgt()) return false;
 
 		$.fancybox.showLoading();
 		$self.data('enviando',true);
